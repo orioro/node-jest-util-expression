@@ -1254,10 +1254,10 @@
     lodash "^4.17.20"
     mem "^8.0.0"
 
-"@orioro/jest-util@^1.6.0":
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/@orioro/jest-util/-/jest-util-1.6.0.tgz#f6ed7816cfaca48e292b08a31fcbefa3dc38f7af"
-  integrity sha512-1o2ThWXK9addhufOvga3ZNOWn8cEwt5ktIFGY5rPtbLhGZoxXSmzUoZO/+o2Cq6xGhp4UsTJUgW5a16BLbl89A==
+"@orioro/jest-util@^1.7.0":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@orioro/jest-util/-/jest-util-1.7.0.tgz#c2d0e2d5262ef80a3975c2562002c0525879b639"
+  integrity sha512-TFsrGT7WgswNR0Ugu9LdRUH9RhQC+GZaLPOfGmjdxLR4hWENXv3Nc26Wns6lHH69sUy5i9QkunI6v+HSIJAdnQ==
   dependencies:
     is-plain-object "^5.0.0"
 

@@ -74,6 +74,6 @@
   },
   "dependencies": {
     "@orioro/expression": "^6.1.0",
-    "@orioro/jest-util": "^1.6.0"
+    "@orioro/jest-util": "^1.7.0"
   }
 }

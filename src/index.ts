@@ -11,6 +11,7 @@ import {
   valueLabel,
   resultLabel,
   TestCases,
+  isErrorExpectation,
 } from '@orioro/jest-util'
 
 const _ellipsis = (str: string, maxlen = 50): string =>
@@ -67,7 +68,9 @@ export const prepareEvaluateTestCases = (
 
         return [
           ...args,
-          typeof result === 'function' ? result : asyncResult(result),
+          typeof result === 'function' && !isErrorExpectation(result)
+            ? result
+            : asyncResult(result),
         ]
       }),
       (value, expression) =>
