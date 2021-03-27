@@ -65,7 +65,10 @@ export const prepareEvaluateTestCases = (
         const result = _case[_case.length - 1]
         const args = _case.slice(0, -1)
 
-        return [...args, asyncResult(result)]
+        return [
+          ...args,
+          typeof result === 'function' ? result : asyncResult(result),
+        ]
       }),
       (value, expression) =>
         evaluateAsync(
